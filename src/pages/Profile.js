@@ -1,4 +1,4 @@
-import { Layout, Menu, Dropdown, Avatar, Button, Divider, Switch } from "antd";
+import { Layout, Menu, Dropdown, Avatar, Button, Switch } from "antd";
 import {
   HomeOutlined,
   BellOutlined,
@@ -22,7 +22,7 @@ const Profile = () => {
   };
 
   const handleCloseModal = () => {
-    setPhase(1)
+    setPhase(1);
     setIsModalVisible(false);
   };
 
@@ -116,7 +116,11 @@ const Profile = () => {
         </div>
       </Header>
       <Content style={{ backgroundColor: "black", paddingLeft: "120px" }}>
-        <Button type="primary" style={{ width: 355, height: 60, fontSize: 30 }} onClick={handleOpenModal}>
+        <Button
+          type="primary"
+          style={{ width: 355, height: 60, fontSize: 30 }}
+          onClick={handleOpenModal}
+        >
           Apply
         </Button>
         <div
@@ -291,7 +295,13 @@ const Profile = () => {
           </div>
         </div>
       </Content>
-      <ApplicationFormModal visible={isModalVisible} onClose={handleCloseModal} phase={phase} setPhase={setPhase}/>    </Layout>
+      <ApplicationFormModal
+        visible={isModalVisible}
+        onClose={handleCloseModal}
+        phase={phase}
+        setPhase={setPhase}
+      />{" "}
+    </Layout>
   );
 };
 

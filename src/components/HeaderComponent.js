@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Switch, Layout, Button } from "antd";
-import { MenuOutlined, UserOutlined } from "@ant-design/icons";
 
 const { Header } = Layout;
 

@@ -21,9 +21,9 @@ const FooterComponent = () => {
             created by angels for angels
           </p>
           <p style={{ fontSize: "16px", color: "white" }}>
-            <a href="#">Privacy Policy</a>
+            <a href="/">Privacy Policy</a>
             <span style={{ paddingLeft: "20px" }}>
-              <a href="#">Legal Terms</a>
+              <a href="/">Legal Terms</a>
             </span>
           </p>
         </Col>
